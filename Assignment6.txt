@@ -1,0 +1,59 @@
+Data Preprocessing
+1. Data Cleaning
+Handling Missing Values:
+
+Remove missing values: Drop rows or columns with missing values if they are not significant.
+Impute missing values: Fill missing values using mean, median, mode, or more advanced techniques like KNN imputation or regression imputation.
+Handling Outliers:
+
+Identify outliers: Use box plots, z-scores, or IQR methods.
+Handle outliers: Remove them, cap them, or use transformation techniques to reduce their impact.
+Correcting Errors:
+
+Fix typos and inconsistencies: Standardize categorical variables, correct data entry errors, etc.
+2. Data Transformation
+Normalization and Standardization:
+
+Normalization: Rescale features to a fixed range, usually [0, 1].
+Standardization: Rescale features to have zero mean and unit variance.
+Encoding Categorical Variables:
+
+Label Encoding: Assign a unique number to each category.
+One-Hot Encoding: Create binary columns for each category.
+Ordinal Encoding: Encode categories with meaningful order.
+Scaling Numerical Features:
+
+Use techniques like Min-Max scaling, Standard scaling, or Robust scaling to ensure numerical features are on a similar scale.
+3. Data Reduction
+Dimensionality Reduction:
+
+Use techniques like Principal Component Analysis (PCA), t-SNE, or UMAP to reduce the number of features while retaining essential information.
+Feature Selection:
+
+Select relevant features using methods like correlation analysis, mutual information, or recursive feature elimination (RFE).
+Feature Engineering
+1. Creating New Features
+Date and Time Features:
+
+Extract day, month, year, day of the week, hour, etc., from datetime columns.
+Text Features:
+
+Extract features like word count, character count, presence of specific keywords, etc., from text data.
+Interaction Features:
+
+Create new features by combining existing ones (e.g., product, ratio, difference).
+2. Transformation of Existing Features
+Polynomial Features:
+
+Create polynomial combinations of numerical features.
+Binning:
+
+Convert continuous variables into categorical bins (e.g., age groups).
+Log Transformation:
+
+Apply log transformation to reduce skewness in distributions.
+3. Aggregation and Grouping
+Aggregated Features:
+Create features by aggregating values (e.g., mean, sum, count) over specific groups or time windows.
+4. Target Encoding
+Encode categorical features by replacing each category with the mean of the target variable for that category.
